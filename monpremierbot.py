@@ -1,11 +1,10 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 #salutation = ['Hello', 'Ciao', 'Goodbye', 'Salam', 'Hy', 'GoodNight', 'Holla', 'BonesNuches', 'SeeYou', 'GoodAfternoon']
 
-question = input("Bonjour, je suis votre premier bot, veillez inseré un mot")
-if (question.lower() == "salut"):
+question = input("Bonjour, je suis votre premier bot, veillez inseré un mot\n")
+
+proposition = ["salut", "bonjour", "bonsoir"]
+if (question.lower() in proposition):
     print("Salut mon ami")
-elif (question.lower() == "bonjour"):
-    print("Salut mon ami")
-elif (question.lower() == "bonsoir"):
-    print ("salut mon ami")
-elif ("je ne comprend rien")
+else:
+    print("je ne comprend rien")
